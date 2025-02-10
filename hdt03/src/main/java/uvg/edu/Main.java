@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         int[] sizes = {10, 100, 1000, 3000};
         Sorter[] algorithms = {
-            new InsertionSort(), new MergeSort(), new QuickSort(), new RadixSort()
+            new InsertionSort(), new MergeSort(), new QuickSort(), new RadixSort(), new BucketSort(), new CustomSort()
         };
 
         for (int size : sizes) {
